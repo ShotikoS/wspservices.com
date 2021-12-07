@@ -59,6 +59,12 @@ $(function() {
         sendContactData()
     })
 
+    $("input").keypress(function(e){
+        if(e.keyCode == "34" || e.keyCode == "39"){
+            e.preventDefault()
+        }
+    })
+
     $(".send-question").click(function(){
         let data = {
             name: $("#name").val(),
