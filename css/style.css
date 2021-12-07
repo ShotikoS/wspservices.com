@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+.header-container {
+  width: 100%;
+  height: 75px;
+}
+
+.header-container .header-cintent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  height: 75px;
+}
+
+.header-container .navbar {
+  display: flex;
+  align-items: center;
+}
+
+.header-container .navbar li {
+  margin: 0px 15px;
+}
+
+.header-container .navbar li:last-child {
+  margin-right: 0px;
+}
+
+.header-container .navbar a {
+  text-decoration: none;
+  color: #00007e;
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.header-container .navbar .active {
+  color: red;
+}
+
+.header-container .website-logo {
+  font-size: 2.5rem;
+  color: #000074;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-container .drop-down-menu {
+  position: absolute;
+  border: 1px solid #e9e9e9;
+  box-shadow: 1px 1px 1px 1px #e9e9e9;
+  background: white;
+  margin-top: 10px;
+  margin-left: -80px;
+  display: none;
+}
+
+.header-container .drop-down-menu li {
+  margin: 15px 8px;
+}
+
+.header-container .drop-down-menu li a {
+  font-size: 0.9rem;
+}
+
+.header-container .drop-down-menu li a:hover {
+  color: red;
+}
+
+.baner-image-container {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/baner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 0px 2px 2px gray;
+}
+
+.baner-image-container .baner-content {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 116, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.baner-image-container h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.baner-image-container h3 {
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.titles {
+  font-size: 1.7rem;
+  color: red;
+}
+
+.services-container {
+  width: 60%;
+  margin: auto;
+  margin-top: 8vw;
+}
+
+.services-container .header-title-text {
+  margin-top: 20px;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.services-container .services-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.services-container .services-list li {
+  margin-top: 70px;
+  width: 268px;
+}
+
+.services-container .box-1 {
+  background: #ff4047;
+}
+
+.services-container .box-2 {
+  background: #ffac32;
+}
+
+.services-container .box-3 {
+  background: #1c3bac;
+}
+
+.services-container .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 235px;
+  margin-top: 40px;
+  border-top-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.services-container .service-header-text {
+  color: white;
+  line-height: 25px;
+  text-align: center;
+  width: 75%;
+  font-size: 0.9rem;
+}
+
+.services-container .service-image {
+  width: 100%;
+  height: 245px;
+  background-position: center;
+  background-size: cover;
+  margin-top: 30px;
+  border-radius: 14px;
+  background-repeat: no-repeat;
+}
+
+.services-container .img-1 {
+  background-image: url("../images/box-1.webp");
+}
+
+.services-container .img-2 {
+  background-image: url("../images/box-2.webp");
+}
+
+.services-container .img-3 {
+  background-image: url("../images/box-3.webp");
+}
+
+.services-container .read-more-button {
+  background: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 1.03rem;
+  color: white;
+  cursor: pointer;
+}
+
+.services-container .read-more-button:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.join-revolution {
+  width: 60%;
+  margin: auto;
+  margin-top: 12vw;
+}
+
+.join-revolution .join-revolution-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.join-revolution .img-side {
+  width: 260px;
+  height: 390px;
+  background-image: url("../images/revolutions-baner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.join-revolution .text-side {
+  width: calc(100% - 500px);
+}
+
+.join-revolution p {
+  margin: 15px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 22px;
+}
+
+.our-services-benefits {
+  width: 100%;
+  margin-top: 7vw;
+  height: 850px;
+  background-image: url("../images/benefits-image.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.our-services-benefits .benefits-content {
+  width: 75%;
+  margin: auto;
+}
+
+.our-services-benefits .benefits-section-title {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding-top: 5vw;
+}
+
+.our-services-benefits .benefits-section-description {
+  text-align: center;
+  width: 80%;
+  color: white;
+  margin: auto;
+  line-height: 23px;
+  margin-top: 35px;
+}
+
+.our-services-benefits .benefits-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 6vw;
+}
+
+.our-services-benefits .benefits-list li {
+  width: 300px;
+  background: white;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-top: 25px;
+}
+
+.our-services-benefits .benefits-list li p {
+  width: 80%;
+  margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  line-height: 25px;
+  height: 265px;
+}
+
+.our-services-benefits .benefits-list li h4 {
+  margin-top: 3vw;
+}
+
+.our-services-benefits .benefits-list li:first-child {
+  background: #e6decb;
+}
+
+.our-services-benefits .benefits-list li:first-child h4 {
+  color: #5376ed !important;
+}
+
+.our-services-benefits .benefits-list li:last-child {
+  background: #e6decb;
+}
+
+.our-services-benefits .benefits-list li:last-child h4 {
+  color: #ff4556 !important;
+}
+
+.our-services-benefits .benefit-title {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #ffb350;
+}
+
+.work-with-us {
+  width: 70%;
+  margin: auto;
+  margin-top: 8vw;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.form-container .input-fields {
+  width: 48%;
+  margin-top: 30px !important;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  padding: 8px 0px;
+  outline: none;
+  padding-left: 5px;
+  min-width: 250px;
+}
+
+.send-form {
+  border: 2px solid #00af00;
+  border-radius: 15px;
+  padding: 10px 65px;
+  margin-top: 50px;
+  font-size: 1.07rem;
+  background: none;
+  cursor: pointer;
+  color: #00af00;
+}
+
+.send-form:hover {
+  background: #00af00;
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10vw;
+  background: #070027;
+}
+
+.footer-container p, .footer-container a {
+  margin: 18px 0px;
+  color: white;
+}
+
+.benefit-description {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 660px) {
+  .header-title-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1500px) {
+  .join-revolution {
+    width: 90%;
+  }
+  .join-revolution .text-side {
+    width: calc(100% - 330px);
+  }
+}
+
+@media (max-width: 750px) {
+  .join-revolution .text-side {
+    width: 100%;
+  }
+  .img-side {
+    margin: auto;
+    margin-top: 50px;
+  }
+  .titles {
+    text-align: center;
+  }
+}
+
+@media (max-width: 749px) {
+  .form-container .input-fields {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1214px) {
+  .our-services-benefits {
+    height: 1100px;
+  }
+}
+
+@media (max-width: 814px) {
+  .our-services-benefits {
+    height: 1400px;
+  }
+}
+
+.bar {
+  display: none;
+}
